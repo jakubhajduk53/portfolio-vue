@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
-<template>123</template>
+<template><div class="text-red-500">123</div></template>
 
 <style scoped></style>
