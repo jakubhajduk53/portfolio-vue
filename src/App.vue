@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ElIcon, ElLink } from "element-plus";
+import { ElIcon } from "element-plus";
 import { Moon, QuestionFilled, PartlyCloudy } from "@element-plus/icons-vue";
 import { onMounted, watch, ref } from "vue";
 
@@ -50,21 +50,28 @@ watch(darkmode, (newValue) => {
       </section>
       <section class="flex gap-5 mt-5 justify-center"></section>
       <section class="flex gap-5 mt-5 justify-center">
-        <div class="flex flex-col items-center">
+        <a
+          target="_blank"
+          href="https://quiz-2025.vercel.app/"
+          class="flex flex-col items-center justify-center border w-28 h-28 rounded-full shadow-xl"
+        >
           <el-icon size="30"><QuestionFilled /></el-icon>
-          <el-link target="_blank" href="https://quiz-2025.vercel.app/"
-            >Quiz App
-          </el-link>
-        </div>
-        <div class="flex flex-col items-center">
+          <div>Quiz App</div>
+        </a>
+        <a
+          target="_blank"
+          href="https://weather-app-jakubhajduk53s-projects.vercel.app/"
+          class="flex flex-col items-center justify-center border w-28 h-28 rounded-full shadow-xl"
+        >
           <el-icon size="30"><PartlyCloudy /></el-icon>
-          <el-link
-            target="_blank"
-            href="https://weather-app-jakubhajduk53s-projects.vercel.app/"
-            >Weather App
-          </el-link>
-        </div>
-        <el-link target="_blank">Project 3</el-link>
+          <div>Weather App</div>
+        </a>
+        <a
+          target="_blank"
+          href=""
+          class="flex flex-col items-center justify-center border w-28 h-28 rounded-full shadow-xl"
+          ><div>Project 3</div>
+        </a>
       </section>
     </main>
   </div>
