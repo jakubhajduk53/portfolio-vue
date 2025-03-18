@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import { ElIcon } from "element-plus";
-import { Moon, QuestionFilled, PartlyCloudy } from "@element-plus/icons-vue";
+import {
+  Moon,
+  QuestionFilled,
+  PartlyCloudy,
+  List,
+} from "@element-plus/icons-vue";
 import { onMounted, watch, ref } from "vue";
 
 const darkmode = ref<boolean>(false);
@@ -68,9 +73,11 @@ watch(darkmode, (newValue) => {
         </a>
         <a
           target="_blank"
-          href=""
+          href="https://to-do-app-2025.vercel.app/"
           class="flex flex-col items-center justify-center border w-28 h-28 rounded-full shadow-xl"
-          ><div>Project 3</div>
+        >
+          <el-icon size="30"><List /></el-icon>
+          <div>Todo App</div>
         </a>
       </section>
     </main>
