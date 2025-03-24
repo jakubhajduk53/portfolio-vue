@@ -6,17 +6,20 @@ import ProjectComponent from "./ProjectComponent.vue";
 <template>
   <ProjectComponent
     href="https://quiz-2025.vercel.app/"
-    text="Quiz App"
+    name="Quiz App"
+    description="Answer 10 various trivia questions"
     :icon="QuestionFilled"
   />
   <ProjectComponent
     href="https://weather-app-jakubhajduk53s-projects.vercel.app/"
-    text="Weather App"
+    name="Weather App"
+    description="Check the weather at any location"
     :icon="PartlyCloudy"
   />
   <ProjectComponent
     href="https://to-do-app-2025.vercel.app/"
-    text="Todo App"
+    name="Todo App"
+    description="Fill the list with your todo's"
     :icon="List"
   />
 </template>
