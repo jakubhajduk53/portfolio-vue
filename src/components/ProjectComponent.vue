@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import { ElIcon } from "element-plus";
+import type { Project } from "../interfaces/interfaces";
 
-defineProps<{
-  href?: string;
-  text?: string;
-  icon?: typeof ElIcon;
-}>();
+defineProps<Project>();
 </script>
 
 <template>
