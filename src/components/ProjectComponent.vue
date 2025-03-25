@@ -7,7 +7,12 @@ defineProps<Project>();
 </script>
 
 <template>
-  <div class="flex justify-between w-1/4 m-1 rounded-2xl shadow-xl p-5 border">
+  <div
+    :class="[
+      customStyle,
+      'flex justify-between w-1/4 m-1 rounded-2xl shadow-xl p-5 text-[#fefae0]',
+    ]"
+  >
     <div>
       <div class="flex gap-1 text-lg">
         <p>{{ name }}</p>
@@ -18,7 +23,7 @@ defineProps<Project>();
     <a
       target="_blank"
       :href="href"
-      class="flex items-center justify-center border w-8 h-8 rounded-full shadow-xl"
+      class="flex items-center justify-center w-8 h-8 rounded-full shadow-xl text-black bg-[#fefae0]"
     >
       <el-icon><TopRight /></el-icon
     ></a>

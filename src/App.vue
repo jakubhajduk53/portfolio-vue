@@ -24,10 +24,12 @@ watch(darkmode, (newValue) => {
 </script>
 
 <template>
-  <div class="flex flex-col h-full dark:bg-gray-800 dark:text-white">
+  <div
+    class="flex flex-col h-full dark:bg-gray-800 dark:text-white bg-[#fefae0]"
+  >
     <nav class="flex h-1/5 justify-between p-5">
       <div class="text-3xl">Jakub Hajduk 2025</div>
-      <div
+      <button
         class="flex items-center justify-center gap-5 outline-2 rounded-full h-10 w-10 hover:cursor-pointer select-none"
         @click="
           () => {
@@ -36,7 +38,7 @@ watch(darkmode, (newValue) => {
         "
       >
         <el-icon size="30"><Moon /></el-icon>
-      </div>
+      </button>
     </nav>
     <main class="flex flex-col h-4/5">
       <section class="flex flex-col text-center mt-5 gap-3">
