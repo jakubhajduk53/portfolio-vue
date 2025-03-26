@@ -5,7 +5,7 @@ export interface Project {
   name?: string;
   shortDescription?: string;
   description?: string;
-  features?: string;
+  features?: string[];
   icon?: DefineComponent<{}, {}, any>;
   customStyle?: string;
 }
