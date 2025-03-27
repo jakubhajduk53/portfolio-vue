@@ -25,7 +25,7 @@ watch(darkmode, (newValue) => {
 
 <template>
   <div
-    class="flex flex-col h-full dark:bg-gray-800 dark:text-white bg-[#fefae0]"
+    class="flex flex-col h-full dark:bg-[#0D1B2A] dark:text-[#E0E1DD] bg-[#fefae0]"
   >
     <nav class="flex h-1/5 justify-between p-5">
       <div class="text-3xl">Jakub Hajduk 2025</div>

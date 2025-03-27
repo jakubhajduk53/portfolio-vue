@@ -35,7 +35,8 @@ const todoFeatures = [
     description="This is a simple quiz application built with Vue 3, TypeScript, Pinia, Vue Router, Element Plus, and TailwindCSS. The app consists of 10 multiple-choice questions, each with only one correct answer, selected using radio buttons."
     :features="quizFeatures"
     :icon="QuestionFilled"
-    customStyle="bg-[#DDA15E]"
+    customStyle="bg-[#DDA15E] dark:bg-[#415A77]"
+    1B263B
   />
   <ProjectComponent
     href="https://weather-app-jakubhajduk53s-projects.vercel.app/"
@@ -44,7 +45,7 @@ const todoFeatures = [
     description="A weather application built with Vue 3, TypeScript, Pinia, Element Plus, and TailwindCSS. Users can search for any location to retrieve real-time weather data from the OpenWeatherMap API."
     :features="weatherFeatures"
     :icon="PartlyCloudy"
-    customStyle="bg-[#BC6C25]"
+    customStyle="bg-[#BC6C25] dark:bg-[#1B263B]"
   />
   <ProjectComponent
     href="https://to-do-app-2025.vercel.app/"
@@ -53,7 +54,7 @@ const todoFeatures = [
     description="A task management application built with Vue 3, TypeScript, Pinia, Element Plus, and TailwindCSS. Users can add, edit, and delete tasks, organizing their workflow efficiently."
     :features="todoFeatures"
     :icon="List"
-    customStyle="bg-[#606C38]"
+    customStyle="bg-[#606C38] dark:bg-[#778DA9]"
   />
 </template>
 

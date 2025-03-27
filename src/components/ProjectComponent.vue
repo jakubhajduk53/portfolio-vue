@@ -10,7 +10,7 @@ defineProps<Project>();
   <div
     :class="[
       customStyle,
-      'flex flex-col w-1/4 shadow-xl rounded-2xl p-5 mb-5 text-[#fefae0]',
+      'flex flex-col w-1/4 shadow-xl rounded-2xl p-5 mb-5 text-[#fefae0] dark:text-[#E0E1DD]',
     ]"
   >
     <div class="flex justify-between">
