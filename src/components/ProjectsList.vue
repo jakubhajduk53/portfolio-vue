@@ -36,7 +36,6 @@ const todoFeatures = [
     :features="quizFeatures"
     :icon="QuestionFilled"
     customStyle="bg-[#DDA15E] dark:bg-[#415A77]"
-    1B263B
   />
   <ProjectComponent
     href="https://weather-app-jakubhajduk53s-projects.vercel.app/"
