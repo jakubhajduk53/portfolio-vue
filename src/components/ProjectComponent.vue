@@ -15,11 +15,13 @@ defineProps<Project>();
   >
     <div class="flex justify-between">
       <div>
-        <div class="flex gap-1 text-base md:text-xl font-semibold">
+        <div class="flex gap-1 text-base md:text-xl font-bold">
           <p>{{ name }}</p>
           <el-icon size="30"><component :is="icon" /></el-icon>
         </div>
-        <div class="text-sm md:text-base">{{ shortDescription }}</div>
+        <div class="text-sm md:text-base">
+          {{ shortDescription }}
+        </div>
       </div>
       <a
         target="_blank"
@@ -31,7 +33,9 @@ defineProps<Project>();
     </div>
     <hr />
     <div class="flex flex-col gap-1 mt-1">
-      <div class="indent-4 text-sm/7 md:text-base/7">{{ description }}</div>
+      <div class="indent-4 text-xs/7 md:text-sm/7">
+        {{ description }}
+      </div>
       <hr />
       <p class="text-sm md:text-base">Features:</p>
       <div
