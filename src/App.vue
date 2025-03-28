@@ -42,8 +42,8 @@ watch(darkmode, (newValue) => {
     </nav>
     <main class="flex flex-1 flex-col items-center">
       <section class="flex flex-col text-center mt-5 gap-3">
-        <p class="text-3xl md:text-5xl">Jakub Hajduk</p>
-        <p class="text-xl md:text-3xl">Front-end developer</p>
+        <p class="text-3xl md:text-5xl font-bold">Jakub Hajduk</p>
+        <p class="text-xl md:text-3xl font-semibold">Front-end developer</p>
         <p class="text-base md:text-xl">
           A 22-year-old student and Vue.js enthusiast with interests in sports,
           IT, and mechatronics. Chess player. Programming since 2019.
