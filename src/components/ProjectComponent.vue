@@ -10,12 +10,12 @@ defineProps<Project>();
   <div
     :class="[
       customStyle,
-      'flex flex-col w-9/10 shadow-xl rounded-2xl p-3 md:p-5 text-[#fefae0] dark:text-[#E0E1DD]',
+      'flex flex-col w-9/10 shadow-xl p-3 md:p-5 text-[#fefae0] dark:text-[#E0E1DD]',
     ]"
   >
     <div class="flex justify-between">
       <div>
-        <div class="flex gap-1 text-base md:text-lg">
+        <div class="flex gap-1 text-base md:text-xl font-semibold">
           <p>{{ name }}</p>
           <el-icon size="30"><component :is="icon" /></el-icon>
         </div>
@@ -31,12 +31,12 @@ defineProps<Project>();
     </div>
     <hr />
     <div class="flex flex-col gap-1 mt-1">
-      <div class="indent-4 text-sm md:text-base">{{ description }}</div>
+      <div class="indent-4 text-sm/7 md:text-base/7">{{ description }}</div>
       <hr />
       <p class="text-sm md:text-base">Features:</p>
       <div
         v-for="feature in features"
-        class="flex items-center gap-1 text-xs md:text-sm"
+        class="flex items-center gap-1 text-xs/6 md:text-sm/6"
       >
         <el-icon><StarFilled /></el-icon>{{ feature }}
       </div>
