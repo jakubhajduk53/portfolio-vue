@@ -26,21 +26,21 @@ defineProps<Project>();
       <a
         target="_blank"
         :href="href"
-        class="flex items-center justify-center size-6 md:size-8 rounded-full shadow-xl text-black bg-[#fefae0]"
+        class="flex items-center justify-center size-6 md:size-8 rounded-full shadow-xl text-black bg-[#fefae0] saturate-[1.1]"
       >
         <el-icon><TopRight /></el-icon
       ></a>
     </div>
-    <hr />
+    <hr class="saturate-[1.2]" />
     <div class="flex flex-col gap-1 mt-1">
-      <div class="indent-4 text-xs/7 md:text-sm/7">
+      <div class="indent-4 text-xs/7 md:text-sm/7 saturate-[1.1]">
         {{ description }}
       </div>
-      <hr />
-      <p class="text-sm md:text-base">Features:</p>
+      <hr class="saturate-[1.2]" />
+      <p class="text-sm md:text-base saturate-[1.1]">Features:</p>
       <div
         v-for="feature in features"
-        class="flex items-center gap-1 text-xs/6 md:text-sm/6"
+        class="flex items-center gap-1 text-xs/6 md:text-sm/6 saturate-[1.2]"
       >
         <el-icon><StarFilled /></el-icon>{{ feature }}
       </div>
