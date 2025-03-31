@@ -10,7 +10,7 @@ defineProps<Project>();
   <div
     :class="[
       customStyle,
-      'flex flex-col w-9/10 shadow-xl p-3 md:p-5 text-[#fefae0] dark:text-[#E0E1DD]',
+      'flex flex-col w-9/10 shadow-xl p-3 md:p-5 text-description-primary dark:text-description-dark-primary',
     ]"
   >
     <div class="flex justify-between">
@@ -26,21 +26,29 @@ defineProps<Project>();
       <a
         target="_blank"
         :href="href"
-        class="flex items-center justify-center size-6 md:size-8 rounded-full shadow-xl text-black bg-[#fefae0] saturate-[1.1]"
+        class="flex items-center justify-center size-6 md:size-8 rounded-full shadow-xl text-black bg-description-secondary dark:bg-description-dark-secondary"
       >
         <el-icon><TopRight /></el-icon
       ></a>
     </div>
-    <hr class="saturate-[1.2]" />
+    <hr class="text-description-tertiary dark:text-description-dark-tertiary" />
     <div class="flex flex-col gap-1 mt-1">
-      <div class="indent-4 text-xs/7 md:text-sm/7 saturate-[1.1]">
+      <div
+        class="indent-4 text-xs/7 md:text-sm/7 text-description-secondary dark:text-description-dark-secondary"
+      >
         {{ description }}
       </div>
-      <hr class="saturate-[1.2]" />
-      <p class="text-sm md:text-base saturate-[1.1]">Features:</p>
+      <hr
+        class="text-description-tertiary dark:text-description-dark-tertiary"
+      />
+      <p
+        class="text-sm md:text-base text-description-secondary dark:text-description-dark-secondary"
+      >
+        Features:
+      </p>
       <div
         v-for="feature in features"
-        class="flex items-center gap-1 text-xs/6 md:text-sm/6 saturate-[1.2]"
+        class="flex items-center gap-1 text-xs/6 md:text-sm/6 text-description-tertiary dark:text-description-dark-tertiary"
       >
         <el-icon><StarFilled /></el-icon>{{ feature }}
       </div>
