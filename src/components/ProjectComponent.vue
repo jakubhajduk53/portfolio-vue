@@ -26,7 +26,7 @@ defineProps<Project>();
       <a
         target="_blank"
         :href="href"
-        class="flex items-center justify-center size-6 md:size-8 rounded-full shadow-xl text-black bg-description-secondary dark:bg-description-dark-secondary"
+        class="flex items-center justify-center size-6 md:size-8 rounded-full shadow-xl text-black bg-description-primary dark:bg-description-dark-primary"
       >
         <el-icon><TopRight /></el-icon
       ></a>
