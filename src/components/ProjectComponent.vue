@@ -19,7 +19,7 @@ defineProps<Project>();
           <p>{{ name }}</p>
           <el-icon size="30"><component :is="icon" /></el-icon>
         </div>
-        <div class="text-sm md:text-base">
+        <div class="text-sm md:text-base font-[500]">
           {{ shortDescription }}
         </div>
       </div>
