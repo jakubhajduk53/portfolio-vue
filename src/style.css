@@ -13,9 +13,9 @@ body,
 @theme {
   --font-noto-serif: "Noto Serif", serif;
   --color-description-primary: hsl(52, 94%, 94%);
-  --color-description-secondary: hsl(52, 90%, 91%);
-  --color-description-tertiary: hsl(52, 86%, 88%);
+  --color-description-secondary: hsl(52, 90%, 92%);
+  --color-description-tertiary: hsl(52, 86%, 89%);
   --color-description-dark-primary: hsl(75, 6%, 87%);
-  --color-description-dark-secondary: hsl(75, 6%, 84%);
-  --color-description-dark-tertiary: hsl(75, 6%, 81%);
+  --color-description-dark-secondary: hsl(75, 6%, 85%);
+  --color-description-dark-tertiary: hsl(75, 6%, 83%);
 }
