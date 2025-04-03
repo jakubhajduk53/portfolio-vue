@@ -25,12 +25,12 @@ watch(darkmode, (newValue) => {
 
 <template>
   <div
-    class="flex flex-col min-h-full dark:bg-[#0D1B2A] dark:text-[#E0E1DD] bg-[#fefae0]"
+    class="flex flex-col min-h-full bg-[hsl(52,94%,94%)] dark:bg-[hsl(211,53%,11%)] dark:text-[hsl(75,6%,87%)]"
   >
     <nav class="flex h-[100px] justify-between p-5">
       <div class="text-xl md:text-3xl">Jakub Hajduk 2025</div>
       <button
-        class="flex items-center justify-center gap-5 outline-2 rounded-full size-8 md:size-10 hover:cursor-pointer select-none"
+        class="flex items-center justify-center gap-5 outline-2 rounded-full size-8 md:size-10 hover:cursor-pointer select-none opacity-80 dark:text-yellow-400"
         @click="
           () => {
             darkmode = !darkmode;
@@ -46,7 +46,7 @@ watch(darkmode, (newValue) => {
         <p class="text-xl md:text-3xl font-semibold mb-3">
           Front-end developer
         </p>
-        <p class="text-base md:text-xl">
+        <p class="text-base md:text-xl w-[33em]">
           A 22-year-old student and Vue.js enthusiast with interests in sports,
           IT, and mechatronics. Chess player. Programming since 2019.
         </p>
