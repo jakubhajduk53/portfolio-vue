@@ -30,6 +30,7 @@ watch(darkmode, (newValue) => {
     <nav class="flex h-[100px] justify-between p-5">
       <div class="text-xl md:text-3xl">Jakub Hajduk 2025</div>
       <button
+        aria-label="darkmode"
         class="flex items-center justify-center gap-5 outline-2 rounded-full size-8 md:size-10 hover:cursor-pointer select-none opacity-80 dark:text-yellow-400"
         @click="
           () => {
