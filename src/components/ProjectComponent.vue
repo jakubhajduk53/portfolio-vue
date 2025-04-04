@@ -10,7 +10,7 @@ defineProps<Project>();
   <div
     :class="[
       customStyle,
-      'flex flex-col w-9/10 shadow-[-3px_3px_0px_hsl(52,7%,70%)] dark:shadow-[-3px_3px_0px_hsl(211,53%,22%)] p-3 md:p-5 text-description-primary dark:text-description-dark-primary ',
+      'flex flex-col w-9/10 font-montserrat shadow-[-5px_5px_0px_hsl(52,60%,84%)] dark:shadow-[-3px_3px_0px_hsl(211,53%,22%)] p-3 md:p-5 text-description-primary dark:text-description-dark-primary ',
     ]"
   >
     <div class="flex justify-between">
@@ -24,6 +24,7 @@ defineProps<Project>();
         </div>
       </div>
       <a
+        aria-label="project site"
         target="_blank"
         :href="href"
         class="flex items-center justify-center size-6 md:size-8 rounded-full shadow-xl text-black bg-description-primary dark:bg-description-dark-primary"
