@@ -27,20 +27,17 @@ watch(darkmode, (newValue) => {
   <div
     class="flex flex-col min-h-full bg-[hsl(52,94%,94%)] dark:bg-[hsl(211,53%,11%)] dark:text-[hsl(75,6%,87%)]"
   >
-    <nav class="flex h-[100px] justify-between p-5">
-      <div class="text-xl md:text-3xl">Jakub Hajduk 2025</div>
-      <button
-        aria-label="darkmode"
-        class="flex items-center justify-center gap-5 outline-2 rounded-full size-8 md:size-10 hover:cursor-pointer select-none opacity-80 dark:text-yellow-400"
-        @click="
-          () => {
-            darkmode = !darkmode;
-          }
-        "
-      >
-        <el-icon size="30"><Moon /></el-icon>
-      </button>
-    </nav>
+    <button
+      aria-label="darkmode"
+      class="self-end m-3 flex items-center justify-center gap-5 outline-2 rounded-full size-8 md:size-10 hover:cursor-pointer select-none opacity-80 dark:text-yellow-400"
+      @click="
+        () => {
+          darkmode = !darkmode;
+        }
+      "
+    >
+      <el-icon size="30"><Moon /></el-icon>
+    </button>
     <main class="flex flex-1 flex-col justify-center items-center">
       <section class="flex flex-col text-center p-3">
         <p class="text-3xl md:text-5xl font-bold">Jakub Hajduk</p>
