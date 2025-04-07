@@ -15,11 +15,11 @@ defineProps<Project>();
   >
     <div class="flex justify-between">
       <div>
-        <div class="flex gap-1 text-base md:text-xl font-bold">
+        <div class="flex gap-1 text-base md:text-xl font-bold font-noto-serif">
           <p>{{ name }}</p>
           <el-icon size="30"><component :is="icon" /></el-icon>
         </div>
-        <div class="text-sm md:text-base font-[500]">
+        <div class="text-sm md:text-base font-[500] font-noto-serif">
           {{ shortDescription }}
         </div>
       </div>

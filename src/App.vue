@@ -40,11 +40,11 @@ watch(darkmode, (newValue) => {
     </button>
     <main class="flex flex-1 flex-col justify-center items-center">
       <section class="flex flex-col text-center p-3">
-        <p class="text-3xl md:text-5xl font-bold">Jakub Hajduk</p>
-        <p class="text-xl md:text-3xl font-semibold mb-3">
+        <p class="text-3xl md:text-5xl font-bold mb-1">Jakub Hajduk</p>
+        <p class="text-xl md:text-3xl font-[500] mb-3 font-montserrat">
           Front-end developer
         </p>
-        <p class="text-base md:text-xl w-[33em]">
+        <p class="text-base md:text-xl w-[35em] font-montserrat">
           A 22-year-old student and Vue.js enthusiast with interests in sports,
           IT, and mechatronics. Chess player. Programming since 2019.
         </p>
