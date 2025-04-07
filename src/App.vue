@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ElIcon } from "element-plus";
-import { Moon } from "@element-plus/icons-vue";
 import { onMounted, watch, ref } from "vue";
 import ProjectsList from "./components/ProjectsList.vue";
 
@@ -25,26 +23,41 @@ watch(darkmode, (newValue) => {
 
 <template>
   <div
-    class="flex flex-col min-h-full bg-[hsl(52,94%,94%)] dark:bg-[hsl(211,53%,11%)] dark:text-[hsl(75,6%,87%)]"
+    class="flex flex-col min-h-full dark:bg-[hsl(211,53%,11%)] dark:text-[hsl(75,6%,87%)]"
   >
-    <button
-      aria-label="darkmode"
-      class="self-end m-3 flex items-center justify-center gap-5 outline-2 rounded-full size-8 md:size-10 hover:cursor-pointer select-none opacity-80 dark:text-yellow-400"
-      @click="
-        () => {
-          darkmode = !darkmode;
-        }
-      "
-    >
-      <el-icon size="30"><Moon /></el-icon>
-    </button>
+    <header class="w-full h-4 bg-[hsl(52,10%,15%)]"></header>
+    <nav class="flex items-center justify-end m-3 gap-3">
+      <a
+        href="https://www.linkedin.com/in/jakub-hajduk-ab0122286/"
+        class="flex items-center justify-center gap-5 outline-2 rounded-full size-6 md:size-8 hover:cursor-pointer opacity-80"
+      >
+        <i class="bx bxl-linkedin-square text-xl md:text-2xl"></i>
+      </a>
+      <a
+        href="https://github.com/jakubhajduk53"
+        class="flex items-center justify-center gap-5 outline-2 rounded-full size-6 md:size-8 hover:cursor-pointer opacity-80"
+      >
+        <i class="bx bxl-github text-xl md:text-2xl"></i>
+      </a>
+      <button
+        aria-label="darkmode"
+        class="flex items-center justify-center gap-5 outline-2 rounded-full size-6 md:size-8 hover:cursor-pointer opacity-80 dark:text-yellow-400"
+        @click="
+          () => {
+            darkmode = !darkmode;
+          }
+        "
+      >
+        <i class="bx bx-moon text-xl md:text-2xl"></i>
+      </button>
+    </nav>
     <main class="flex flex-1 flex-col justify-center items-center">
       <section class="flex flex-col text-center p-3">
         <p class="text-3xl md:text-5xl font-bold mb-1">Jakub Hajduk</p>
         <p class="text-xl md:text-3xl font-[500] mb-3 font-montserrat">
           Front-end developer
         </p>
-        <p class="text-base md:text-xl w-[35em] font-montserrat">
+        <p class="text-base md:text-xl w-[20em] md:w-[35em] font-montserrat">
           A 22-year-old student and Vue.js enthusiast with interests in sports,
           IT, and mechatronics. Chess player. Programming since 2019.
         </p>
