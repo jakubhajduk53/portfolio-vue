@@ -49,7 +49,7 @@ defineProps<Project>();
       </p>
       <div
         v-for="feature in features"
-        class="flex items-center gap-1 text-xs/6 md:text-sm/6 text-description-tertiary dark:text-description-dark-tertiary"
+        class="flex items-baseline gap-1 mb-1 text-xs/6 md:text-sm/6 text-description-tertiary dark:text-description-dark-tertiary"
       >
         <el-icon><StarFilled /></el-icon>{{ feature }}
       </div>
