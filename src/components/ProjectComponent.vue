@@ -33,7 +33,7 @@ defineProps<Project>();
       ></a>
     </div>
     <hr
-      class="text-description-tertiary dark:text-description-dark-tertiary opacity-50"
+      class="text-description-tertiary dark:text-description-dark-tertiary opacity-10"
     />
     <div class="flex flex-col gap-1 mt-1">
       <div
@@ -42,7 +42,7 @@ defineProps<Project>();
         {{ description }}
       </div>
       <hr
-        class="text-description-tertiary dark:text-description-dark-tertiary opacity-50"
+        class="text-description-tertiary dark:text-description-dark-tertiary opacity-10"
       />
       <p
         class="text-sm md:text-base text-description-secondary dark:text-description-dark-secondary"
