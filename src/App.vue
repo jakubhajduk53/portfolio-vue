@@ -65,7 +65,7 @@ watch(darkmode, (newValue) => {
       <section
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-9/10 max-w-full h-full gap-3 m-5 justify-items-center"
       >
-        <ProjectsList class="max-h-full" />
+        <ProjectsList />
       </section>
     </main>
   </div>
