@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ElIcon } from "element-plus";
 import { TopRight, StarFilled } from "@element-plus/icons-vue";
-import type { Project } from "../interfaces/interfaces";
+import type { Project } from "../interfaces";
 
 defineProps<Project>();
 </script>
