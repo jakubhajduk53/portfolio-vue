@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { QuestionFilled, PartlyCloudy, List } from "@element-plus/icons-vue";
+import { QuestionFilled, PartlyCloudy, Grid } from "@element-plus/icons-vue";
 import ProjectComponent from "./ProjectComponent.vue";
 
 const quizFeatures = [
@@ -24,16 +24,15 @@ const weatherFeatures = [
 const weatherDescription =
   "A weather application built with Vue 3, TypeScript, Pinia, Element Plus, and TailwindCSS. Users can search for any location to retrieve real-time weather data from the OpenWeatherMap API.";
 
-const todoFeatures = [
-  "Modern Tech Stack: Vue 3 with TypeScript ensures a scalable and maintainable codebase.",
-  "State Management: Pinia provides smooth task handling and reactivity.",
-  "User-Friendly UI: Styled with TailwindCSS and Element Plus for a clean and intuitive experience.",
-  "Task Table: All tasks are displayed in a structured table with inline editing and deletion options.",
-  "Priority & Deadline Colors: Tasks are visually categorized based on priority and due date for better organization.",
+const uiFeatures = [
+  "Custom Design System: Built with Vue 3 and TypeScript, offering a reusable and scalable UI component library.",
+  "Dual Color Palettes: Includes separate light and dark HSL-based palettes for consistent theming across UI components.",
+  "Button Components: Support multiple sizes, border styles, and one of seven predefined themes for visual variety.",
+  "Utility-First Styling: TailwindCSS ensures rapid development with consistent spacing, typography, and responsive behavior.",
+  "Consistent UX Patterns: Components follow predictable structure and interactions to provide a smooth user experience.",
 ];
-
-const todoDescription =
-  "A task management application built with Vue 3, TypeScript, Pinia, Element Plus, and TailwindCSS. Users can add, edit, and delete tasks, organizing their workflow efficiently.";
+const uiDescription =
+  "A custom UI component library built with Vue 3, TypeScript, and TailwindCSS. Features a flexible HSL-based color system and a suite of interactive, accessible button components ready for integration in modern web apps.";
 </script>
 
 <template>
@@ -56,12 +55,12 @@ const todoDescription =
     customStyle="bg-linear-to-bl from-[hsl(28,57%,34%)] to-[hsl(28,57%,24%)] dark:from-[hsl(219,37%,27%)] dark:to-[hsl(219,37%,17%)]"
   />
   <ProjectComponent
-    href="https://to-do-app-2025.vercel.app/"
-    name="Todo App"
-    shortDescription="Fill the list with your todo's"
-    :description="todoDescription"
-    :features="todoFeatures"
-    :icon="List"
+    href="https://my-ui-jakubhajduk53s-projects.vercel.app/"
+    name="MyUI"
+    shortDescription="Build interfaces faster with custom-styled UI components"
+    :description="uiDescription"
+    :features="uiFeatures"
+    :icon="Grid"
     customStyle="bg-linear-to-bl from-[hsl(74,32%,32%)] to-[hsl(74,32%,22%)] dark:from-[hsl(214,23%,36%)] dark:to-[hsl(214,23%,26%)]"
   />
 </template>
