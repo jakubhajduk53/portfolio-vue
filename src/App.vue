@@ -23,7 +23,7 @@ watch(darkmode, (newValue) => {
 
 <template>
   <div
-    class="flex flex-col min-h-full dark:bg-[hsl(211,53%,11%)] dark:text-[hsl(75,6%,87%)]"
+    class="flex flex-col min-h-full dark:bg-[hsl(211,53%,11%)] dark:text-description-dark-primary"
   >
     <header class="w-full h-4 bg-[hsl(52,10%,15%)]"></header>
     <nav class="flex items-center justify-end m-3 gap-3">
