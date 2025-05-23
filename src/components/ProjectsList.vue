@@ -52,7 +52,7 @@ const uiDescription =
     :description="weatherDescription"
     :features="weatherFeatures"
     :icon="PartlyCloudy"
-    customStyle="bg-linear-to-bl from-[hsl(28,57%,34%)] to-[hsl(28,57%,24%)] dark:from-[hsl(219,37%,27%)] dark:to-[hsl(219,37%,17%)]"
+    customStyle="bg-linear-to-bl from-[hsl(28,57%,34%)] to-[hsl(28,57%,24%)] dark:from-[hsl(219,27%,36%)] dark:to-[hsl(219,27%,26%)]"
   />
   <ProjectComponent
     href="https://my-ui-jakubhajduk53s-projects.vercel.app/"
