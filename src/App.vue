@@ -28,6 +28,7 @@ watch(darkmode, (newValue) => {
     <header class="w-full h-4 bg-[hsl(52,10%,15%)]"></header>
     <nav class="flex items-center justify-end m-3 gap-3">
       <a
+        aria-label="linkedin"
         href="https://www.linkedin.com/in/jakub-hajduk-ab0122286/"
         target="_blank"
         class="flex items-center justify-center gap-5 outline-2 rounded-full size-6 md:size-8 hover:cursor-pointer opacity-80"
@@ -35,6 +36,7 @@ watch(darkmode, (newValue) => {
         <i class="bx bxl-linkedin-square text-xl md:text-2xl"></i>
       </a>
       <a
+        aria-label="github"
         href="https://github.com/jakubhajduk53"
         target="_blank"
         class="flex items-center justify-center gap-5 outline-2 rounded-full size-6 md:size-8 hover:cursor-pointer opacity-80"
