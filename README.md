@@ -2,13 +2,13 @@
 
 ## 📏 Font Size
 
-| Element | Tailwind Classes            |
-|---------|-----------------------------|
-| `h1`    | `text-3xl md:text-5xl`      |
-| `h2`    | `text-xl md:text-3xl`       |
-| `h3`    | `text-base md:text-xl`      |
-| `h4`    | `text-sm md:text-base`      |
-| `h5`    | `text-xs md:text-sm`        |
+| Element | Tailwind Classes       |
+| ------- | ---------------------- |
+| `h1`    | `text-3xl md:text-5xl` |
+| `h2`    | `text-xl md:text-3xl`  |
+| `h3`    | `text-base md:text-xl` |
+| `h4`    | `text-sm md:text-base` |
+| `h5`    | `text-xs md:text-sm`   |
 
 ## 🅱️ Font Weight
 
@@ -24,10 +24,12 @@
 
 ## 🎨 Color Palette
 
-### 🌞 Light Theme  
+### 🌞 Light Theme
+
 https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
 
-### 🌚 Dark Theme  
+### 🌚 Dark Theme
+
 https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd
 
 #### Description Colors:
@@ -41,9 +43,9 @@ https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd
 
 ## 📦 Spacing
 
-**Margin:** `m-5`, `m-3`, `m-0`  
-**Padding:** `p-5`, `p-3`, `p-0`  
-**Gap:** `gap-5`, `gap-3`, `gap-0`
+**Margin:** `m-5`, `m-3`, `m-1`, `m-0`  
+**Padding:** `p-3`, `p-0`  
+**Gap:** `gap-5`, `gap-3`, `gap-1`, `gap-0`
 
 ## 📏 Width
 
@@ -62,13 +64,12 @@ https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd
 ## 🌫️ Box Shadows
 
 - `shadow-xl` – anchor
-- `shadow-[-5px_5px_0px_hsl(52,60%,84%)]`  
+- `shadow-[-5px_5px_0px_hsl(52,60%,84%)]`
 - `dark:shadow-[-3px_3px_0px_hsl(211,53%,22%)]`
 
 ## 🟦 Borders
 
 - `rounded-full` – anchors
-- `none` – most of the elements
 
 ## 🕶️ Opacity
 
